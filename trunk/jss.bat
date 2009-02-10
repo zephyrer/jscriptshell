@@ -1,0 +1,1 @@
+@cscript.exe /e:jscript /i /nologo jscriptshell.js
