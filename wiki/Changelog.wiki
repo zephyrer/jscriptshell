@@ -5,7 +5,7 @@
 
  * change the license from Apache License 2.0 to Artistic License 2.0 / GPLv3
 
-== v0.2 ,,2009-2-10,, ==
+== v0.2 (2009-2-10) ==
 
  * wrapped into J$criptShell namespace to minimize global namespace pollution
  * rewrite input-eval-output cycle to move eval to global scope
@@ -15,12 +15,12 @@
  * make built-in functions deletable
  * prompt can be customized
  * provides toString functions for JScriptShell built-ins and global object
- * add sleep(dt)
+ * add `sleep(dt)`
  * add multiple XHR progIds
  * use safe copies for robustness
- * use short names ($, W, S, etc.) for commonly used objects
- * replace WScript.Echo with WScript.StdOut.*
+ * use short names (`$`, `W`, `S`, etc.) for commonly used objects
+ * replace `WScript.Echo` with `WScript.StdOut.*`
 
-== v0.1 ,,2009-2-6,, ==
+== v0.1 (2009-2-6) ==
 
  * initial work
