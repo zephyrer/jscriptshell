@@ -7,14 +7,14 @@
 
 == v0.2 (2009-2-10) ==
 
- * wrapped into J$criptShell namespace to minimize global namespace pollution
+ * wrapped into `J$criptShell` namespace to minimize global namespace pollution
  * rewrite input-eval-output cycle to move eval to global scope
- * utilize new Function(code) to capture syntax error
+ * utilize `new Function(code)` to capture syntax error
  * call cscript.exe if executed from wscript.exe
  * add welcome message
  * make built-in functions deletable
  * prompt can be customized
- * provides toString functions for JScriptShell built-ins and global object
+ * provides toString functions for JScriptShell builtins and global object
  * add `sleep(dt)`
  * add multiple XHR progIds
  * use safe copies for robustness
