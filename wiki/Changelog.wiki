@@ -1,11 +1,11 @@
-#summary JScriptShell CHANGELOG.
+#summary JScriptShell changelog.
 #labels Featured
 
 = JScriptShell Changlog =
 
  * change the license from Apache License 2.0 to Artistic License 2.0 / GPLv3.
 
-== v0.2 (2009-2-10) ==
+== v0.2 ,,2009-2-10,, ==
 
  * wrapped into J$criptShell namespace to minimize global namespace pollution;
  * rewrite input-eval-output cycle to move eval to global scope;
@@ -21,6 +21,6 @@
  * use short names ($, W, S, etc.) for commonly used objects;
  * replace WScript.Echo with WScript.StdOut.*;
 
-== v0.1 (2009-2-6) ==
+== v0.1 ,,2009-2-6,, ==
 
  * initial work
