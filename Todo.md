@@ -1,0 +1,8 @@
+# JScriptShell TODO #
+
+  * add error reports for load()
+  * add messages and directives for licenses
+  * support both safe-eval/global-eval modes
+  * analyze syntax error by generate and test (trial by error)
+  * smart prompt (like ruby irb?)
+  * command-line usages (like jsshell/rhino)
